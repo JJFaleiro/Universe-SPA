@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body,
+button,
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+
+  color: #8d8d99;
+
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+
+  transition: 0.3s;
+}
+
+header :nth-child(3) {
+  width: 12.2rem;
+}
+
+a:focus {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+
+  padding: 4rem 0 4rem 7.2rem;
+
+  position: absolute;
+  width: 100vw;
+}
+
+/* main {
+  height: 100vh;
+  background-size: 100vw 100vh;
+  background-image: url(./assets/sky-home.png);
+} */
+
+/*Repetido acima*/
+.insert {
+  height: 100vh;
+  background-size: 100vw 100vh;
+}
+
+.home {
+  background-image: url(./assets/sky-home.png);
+
+  padding: 30rem 0 0 0;
+}
+
+.wrapper-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  width: fit-content;
+}
+
+.wrapper-box h1 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+
+  color: #e1e1e6;
+
+  margin-bottom: 2.4rem;
+}
+
+.wrapper-box h3 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 125%;
+
+  color: #e1e1e6;
+
+  margin-bottom: 2.4rem;
+}
+
+.wrapper-box a {
+  background-color: transparent;
+  padding: 1.2rem 3.2rem;
+
+  border: 2px solid #ffffff;
+  border-radius: 0.6rem;
+
+  text-transform: uppercase;
+
+  transition: 0.3s;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  color: #ffffff;
+}
+
+.wrapper-box a:hover {
+  background-color: #ffffff;
+  color: #02799d;
+}
+
+#universe {
+  background-image: url(./assets/sky-universe.png);
+}
+
+#explore {
+  background-image: url(./assets/sky-explore.png);
+}
+
+.universe-explore {
+  padding: 19rem 0 0 10rem;
+
+  font-size: 18px;
+  line-height: 160%;
+
+  color: #e1e1e6;
+}
+
+.universe-explore h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+
+  margin-bottom: 1.6rem;
+}
+
+.wrapper-content {
+  max-width: 64.8rem;
+}
