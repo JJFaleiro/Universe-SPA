@@ -1,0 +1,23 @@
+{
+  "name": "universe-spa",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> Universe </h1>",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJFaleiro/Universe-SPA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJFaleiro/Universe-SPA/issues"
+  },
+  "homepage": "https://github.com/JJFaleiro/Universe-SPA#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
